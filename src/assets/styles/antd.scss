@@ -1,0 +1,27 @@
+.ant-btn-default {
+  color: $secondary;
+  background-color: $primary;
+  border-color: $primary;
+  border-radius: 24px;
+  font-weight: 700;
+  font-family: cursive;
+
+  :hover {
+    color: $secondary;
+    border-color: $primary;
+  }
+
+  :active & :not(:disabled) {
+    color: $secondary;
+    border-color: $primary;
+  }
+}
+
+.ant-checkbox-inner,
+.ant-checkbox-input {
+  transform: scale(1.2);
+}
+
+.ant-input {
+  font-family: cursive;
+}

@@ -1,0 +1,13 @@
+$primary: #2C2C2C;
+$secondary: #D9D9D9;
+$danger: #C73E3E;
+$success: #639C50;
+$inputBackground: #E9E9E9;
+
+:export {
+  primary: $primary;
+  secondary: $secondary;
+  danger: $danger;
+  success: $success;
+  inputBackground: $inputBackground;
+}
