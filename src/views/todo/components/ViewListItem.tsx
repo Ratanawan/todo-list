@@ -4,7 +4,7 @@ import { DeleteOutlined, EditOutlined } from '@ant-design/icons';
 import { Checkbox, List, Typography } from "antd";
 import { CheckboxChangeEvent } from "antd/es/checkbox";
 import React, { useState } from "react";
-import { ListItem } from "./types";
+import { ListItem } from "../types";
 
 type ViewListItemProps = ListItem & {
   handleOnEdit: (id: string) => void;

@@ -1,8 +1,8 @@
 import { List } from "antd";
 import React, { Fragment } from "react";
-import ViewListItem from "./ViewListItem";
-import { ListItem } from "./types";
+import { ListItem } from "../types";
 import EditListItem from "./EditListItem";
+import ViewListItem from "./ViewListItem";
 
 type ToDoListProps = {
   todoList: ListItem[];

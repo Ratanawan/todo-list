@@ -3,7 +3,7 @@ import { Col, Row } from "@/components";
 import { CheckCircleOutlined, DeleteOutlined } from '@ant-design/icons';
 import { Checkbox, Input, List } from "antd";
 import React, { ChangeEvent, useState } from "react";
-import { ListItem } from "./types";
+import { ListItem } from "../types";
 
 type EditListItemProps = ListItem & {
   handleOnSave: (id: string, taskName: string) => void;
